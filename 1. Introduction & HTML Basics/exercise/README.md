@@ -2,7 +2,7 @@
 
 Σκοπός είναι να βρείτε πως λειτουργούν τα elements που χρειάζονται ψάχνοντας π.χ. στο [Mozilla Developers Network](developer.mozilla.org), και να προσπαθήσετε να αντιγράψετε το Mockup όσο το δυνατόν ίδιο οπτικά μπορείτε.
 <br>
-Άλλα χρήσιμα resources είναι το [Stack Overflow](stackoverflow.com) και το [w3schools](w3schools.com).
+Άλλα χρήσιμα resources είναι το [Stack Overflow](https://stackoverflow.com) και το [w3schools](https://w3schools.com).
 
 Για βοήθεια, μπορείτε να ψάξετε συγκεκριμένα για τα elements `<p>`, `<table>`, `<ul>`, `<h1>` και `<img>`. Δείτε πως λειτουργούν και πως συνδυάζονται με άλλα elements.
 
