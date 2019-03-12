@@ -1,6 +1,6 @@
 Καλείσθε να υλοποιήσετε ένα HTML-only (χωρίς CSS) άρθρο από το mockup που υπάρχει στον συγκεκριμένο φάκελο (*article-mockup.png*). Μπορείτε να ξεκινήσετε από το αρχείο template.html
 
-Σκοπός είναι να βρείτε πως λειτουργούν τα elements που χρειάζονται ψάχνοντας π.χ. στο [Mozilla Developers Network](developer.mozilla.org), και να προσπαθήσετε να αντιγράψετε το Mockup όσο το δυνατόν ίδιο οπτικά μπορείτε.
+Σκοπός είναι να βρείτε πως λειτουργούν τα elements που χρειάζονται ψάχνοντας π.χ. στο [Mozilla Developers Network](https://developer.mozilla.org), και να προσπαθήσετε να αντιγράψετε το Mockup όσο το δυνατόν ίδιο οπτικά μπορείτε.
 <br>
 Άλλα χρήσιμα resources είναι το [Stack Overflow](https://stackoverflow.com) και το [w3schools](https://w3schools.com).
 
