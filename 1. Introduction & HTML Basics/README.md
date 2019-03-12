@@ -7,7 +7,7 @@
 - Browser Developer Tools
 
 
-[Examples](slides.pdf)
+[Slides](slides.pdf)
 <br>
 [Examples](examples/)
 <br>
