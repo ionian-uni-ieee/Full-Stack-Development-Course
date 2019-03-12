@@ -7,6 +7,6 @@
 - Browser Developer Tools
 
 
-<a href="https://shor10.me/T3SF" target="_blank">Slides</a>
+<a href="https://shor10.me/T3SF" target="_blank">Slides</a> (or download the PDF)
 <br>
 [Examples](examples/)
