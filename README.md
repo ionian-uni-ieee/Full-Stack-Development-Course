@@ -14,6 +14,8 @@ git push --set-upstream origin master
 You will need a web server with PHP execution functionality.
 The folder of the git repository should be the document root of the web server.
 
+**IMPORTANT**: Admin login: username: **admin**, password: **p4ssw0rd**
+
 ## Implementing features
 
 When creating a feature, push to your repository and use GitHub's pull request interface to submit a pull request to the original repository. Your pull request will then be reviewed and eventually merged.
