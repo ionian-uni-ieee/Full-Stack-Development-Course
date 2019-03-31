@@ -18,7 +18,7 @@ The folder of the git repository should be the document root of the web server.
 
 ## Implementing features
 
-When creating a feature, push to your repository and use GitHub's pull request interface to submit a pull request to the original repository. Your pull request will then be reviewed and eventually merged.
+When creating a feature, push to your repository and use GitHub's pull request interface to submit a pull request to the original repository's develop branch. Your pull request will then be reviewed and eventually merged.
 
 ## Feature Requests
 
