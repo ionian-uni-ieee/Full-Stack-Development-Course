@@ -70,8 +70,6 @@ if (!file_exists($_SERVER['DOCUMENT_ROOT'] . "/users/" . $_POST['username'] . ".
     redirect("/login");
 }
 
-file_put_contents("wtf", json_encode(array("username" => "x", "pssword"=> "d")));
-
 // Read user data and decode the json into a dictionary
 $userdata = file_get_contents($_SERVER['DOCUMENT_ROOT'] . "/users/" . $_POST['username'] . ".json");
 // Decode json into associative array
