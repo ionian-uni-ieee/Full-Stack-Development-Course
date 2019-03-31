@@ -34,15 +34,4 @@ The code has been written in a way that is totally incomplete, and it requires y
 
 If you want to modify the stylesheets, download a LESS autocompile package for your IDE of choice. If using the Atom Editor, you can download [less-compile-on-save](https://atom.io/packages/less-compile-on-save).
 
-
-
-**TODO:**
- - Split regularly used functions to their own file and include it on files
- - Split functionality into different modules
- - Post creation form and API
- - Posts list on frontend and admin page
- - Post edit on admin page
- - Post delete on admin page
- - Add comments on post frontend
- - Add comment management on admin page
- - ... (WIP)
+TODO LIST: **[ROADMAP](https://github.com/ionian-uni-ieee/Full-Stack-Development-Course/projects/1)**
