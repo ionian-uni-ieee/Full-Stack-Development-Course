@@ -22,7 +22,7 @@ if (session_status() == PHP_SESSION_NONE) {
 
 // Redirect to login page and stop execution if not logged in
 if (!isset($_SESSION['login'])) {
-    redirect("/login");
+    redirect("/login.php");
 }
 
 ?>
@@ -35,7 +35,7 @@ if (!isset($_SESSION['login'])) {
     </head>
     <body>
         <a href="/">Home</a>
-        <a href="/logout">Logout</a>
+        <a href="/logout.php">Logout</a>
 
         Admin Area
     </body>
