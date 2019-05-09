@@ -32,7 +32,7 @@ if (session_status() == PHP_SESSION_NONE) {
 
 // Redirect to admin area is user is logged in
 if (isset($_SESSION['login'])) {
-    redirect("/admin");
+    redirect("/admin.php");
 }
 
 ?>
@@ -46,7 +46,7 @@ if (isset($_SESSION['login'])) {
     <body>
         <a href="/">Home</a>
         <div id="login">
-            <form action="/backend/login" method="post">
+            <form action="/backend/login.php" method="post">
                 <input class="username" name="username" type="text">
                 <input class="password" name="password" type="password">
                 <button class="submit-btn" type="submit">Login</button>
