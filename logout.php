@@ -1,6 +1,6 @@
 <?php
 
-include('common-functions.php');
+include('functions.php');
 
 function logout() {
     unset($_SESSION['login']);
