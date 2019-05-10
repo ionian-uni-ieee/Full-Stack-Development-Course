@@ -1,7 +1,7 @@
 <?php
 
 // One level up
-include("../functions.php");
+require("../functions.php");
 
 // Verify request method is POST (GET encodes key-values on URL - unsafe!)
 if ($_SERVER['REQUEST_METHOD'] !== "POST") {
