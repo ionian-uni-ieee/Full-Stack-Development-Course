@@ -2,9 +2,7 @@
 
 include('functions.php');
 
-if (session_status() == PHP_SESSION_NONE) {
-    session_start();
-}
+
 
 // Redirect to login page and stop execution if not logged in
 if (!isset($_SESSION['login'])) {
@@ -17,7 +15,7 @@ if (!isset($_SESSION['login'])) {
     <head>
         <meta charset="utf-8">
         <title>Blog</title>
-        <link rel="stylesheet" type="text/css" href="../css/style.css">
+        <link rel="stylesheet" type="text/css" href="/css/style.css">
     </head>
     <body>
         <a href="/">Home</a>

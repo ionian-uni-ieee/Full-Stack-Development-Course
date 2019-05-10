@@ -44,10 +44,6 @@ function error($message) {
 }
 
 
-// Start the session if it has not yet started
-if (session_status() == PHP_SESSION_NONE) {
-    session_start();
-}
 
 // Verify request method is POST (GET encodes key-values on URL - unsafe!)
 if ($_SERVER['REQUEST_METHOD'] !== "POST") {

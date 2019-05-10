@@ -1,6 +1,11 @@
-<?php 
+<?php
 // This file should be included in each php file that needs to use
 // these functions.
+
+// Start the session if it has not yet started
+if (session_status() == PHP_SESSION_NONE) {
+    session_start();
+}
 
 function getProtocol() {
     if (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off' || $_SERVER['SERVER_PORT'] == 443) {
@@ -27,5 +32,5 @@ function getError() {
         return false;
     }
 }
-    
+
 ?>
