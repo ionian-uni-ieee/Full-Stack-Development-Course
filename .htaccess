@@ -1,7 +1,2 @@
-# Remove .php extention requirements from PHP files
-RewriteEngine On
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^([^\.]+)$ $1.php [NC,L]
-
 # Enable php short open tags
 php_flag short_open_tag on

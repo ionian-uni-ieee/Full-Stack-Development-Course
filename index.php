@@ -6,7 +6,7 @@
         <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
-        <a href="/login">Login</a>
-        <a href="/admin">Admin Area</a>
+        <a href="/login.php">Login</a>
+        <a href="/admin.php">Admin Area</a>
     </body>
 </html>
