@@ -24,13 +24,6 @@ function redirect($path) {
 }
 
 /*
- * Set the error key on the session array
- */
-function error($message) {
-    $_SESSION['error'] = $message;
-}
-
-/*
  * Returns the error and unsets it
  */
 function getError($message) {
@@ -42,6 +35,14 @@ function getError($message) {
         return false;
     }
 }
+
+/*
+ * Set the error key on the session array
+ */
+function error($message) {
+    $_SESSION['error'] = $message;
+}
+
 
 // Start the session if it has not yet started
 if (session_status() == PHP_SESSION_NONE) {
