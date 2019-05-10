@@ -1,49 +1,7 @@
 <?php
 
-/*
- * Returns http or https depending on the enabled protocol on the web server
- */
-function getProtocol() {
-    if (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off' || $_SERVER['SERVER_PORT'] == 443) {
-        return "https";
-    }
-    else {
-        return "http";
-    }
-}
-
-/*
- * Redirects the user on an absolute (from document root) path and stops execution.
- * "/" is document root
- */
-function redirect($path) {
-    $protocol = getProtocol();
-    $domain = $_SERVER['HTTP_HOST'];
-    header("Location: $protocol://$domain$path");
-    exit;
-}
-
-/*
- * Returns the error and unsets it
- */
-function getError($message) {
-    if (isset($_SESSION['error'])) {
-        return $_SESSION['error'];
-        unset($_SESSION['error']);
-    }
-    else {
-        return false;
-    }
-}
-
-/*
- * Set the error key on the session array
- */
-function error($message) {
-    $_SESSION['error'] = $message;
-}
-
-
+// One level up
+include("../functions.php");
 
 // Verify request method is POST (GET encodes key-values on URL - unsafe!)
 if ($_SERVER['REQUEST_METHOD'] !== "POST") {

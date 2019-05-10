@@ -1,8 +1,6 @@
 <?php
 
-include('functions.php');
-
-
+require('functions.php');
 
 // Redirect to login page and stop execution if not logged in
 if (!isset($_SESSION['login'])) {

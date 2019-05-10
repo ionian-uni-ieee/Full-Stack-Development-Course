@@ -1,6 +1,6 @@
 <?php
 
-include('functions.php');
+require('functions.php');
 
 // Redirect to admin area is user is logged in
 if (isset($_SESSION['login'])) {
